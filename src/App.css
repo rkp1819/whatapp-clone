@@ -1,0 +1,19 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.App {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  background-color: #ededed;
+  width: 100vw;
+}
+
+@media (max-width: 600px) {
+  .App {
+    /* margin: auto 10px auto 10px; */
+    padding: auto 10% auto 10%;
+    max-height: 100vh;
+  }
+}
